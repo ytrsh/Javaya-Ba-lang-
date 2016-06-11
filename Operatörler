@@ -1,0 +1,4 @@
+int x;
+int y;
+int sayi = ((x < y) ? y : x); // x, y den küçük ise y yi yazdır , büyük ise x i yazdır.
+System.out.println(sayi);
