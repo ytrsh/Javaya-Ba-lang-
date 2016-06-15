@@ -1,0 +1,44 @@
+
+package deneme;
+import java.util.Scanner;
+
+public class yeni {
+
+	static Scanner syht = new Scanner(System.in);
+	static int a;
+	public static void main (String[] args){
+	
+		
+		System.out.println("(1) Los Angeles Turu");
+		System.out.println("(2) New York Turu");
+		System.out.println("(3) İstanbul Turu");
+		System.out.println("Lütfen seçtiğiniz yerin numarasını yazınız" + '\n' + "...");
+		a=syht.nextInt();
+		
+		switch(a){
+		
+		case 1 :
+			System.out.println("Los Angeles turunu seçtiniz!" + '\n' + "Otel ücreti + Şehir içi gezi ücreti + Sağlık Sigortası dahil ücret " + '\n' + "5000$ " + '\n' + "Uçak bileti fiyata dahil değildir." );
+		break;
+		
+		case 2 :
+			System.out.println("New York turunu seçtiniz!" + '\n' + "Otel ücreti + Şehir içi gezi ücreti + Sağlık Sigortası dahil ücret " + '\n' + "5000$ " + '\n' + "Uçak bileti fiyata dahil değildir." );
+		break;
+		
+		case 3 :
+			System.out.println("İstanbul turunu seçtiniz!" + '\n' + "Otel ücreti + Şehir içi gezi ücreti + Sağlık Sigortası dahil ücret " + '\n' + "5000$ " + '\n' + "Uçak bileti fiyata dahil değildir." );
+		break;
+		
+		default : 
+			System.out.println("Hatalı Seçim!");
+			break;
+		}
+		
+	   }
+	   }
+	   
+		
+		
+	
+	
+
